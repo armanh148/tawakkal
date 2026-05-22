@@ -1,0 +1,677 @@
+[
+  {
+    "id": 1,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BD116-26-2-Beige-1.jpg?v=1776935342&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-bd116-26-2-beige",
+    "badge": "New"
+  },
+  {
+    "id": 2,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BD114-26-2-Cream-1.jpg?v=1776935342&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-bd114-26-2-cream",
+    "badge": "New"
+  },
+  {
+    "id": 3,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF132-26B-2-Beige-1_4552f097-0170-44c9-8683-ab1ce31e8771.jpg?v=1776935342&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef132-26b-2-beige",
+    "badge": "New"
+  },
+  {
+    "id": 4,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR156-2P26-3-Cream-1.jpg?v=1776065382&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br156-2p26-3-cream",
+    "badge": "New"
+  },
+  {
+    "id": 5,
+    "name": "RTS | SHIRT",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR138-26-3-Black-1.jpg?v=1776065382&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-br138-26-3-black",
+    "badge": "New"
+  },
+  {
+    "id": 6,
+    "name": "RTS | SHIRT",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR130-26-3-Ochre-1.jpg?v=1776065383&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-br130-26-3-ochre",
+    "badge": "New"
+  },
+  {
+    "id": 7,
+    "name": "RTS | SHIRT",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR125-26-3-Purple-1.jpg?v=1776065383&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-br125-26-3-purple",
+    "badge": "New"
+  },
+  {
+    "id": 8,
+    "name": "RTS | SHIRT",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR121-26-3-Orange-1.jpg?v=1776065383&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-br121-26-3-orange",
+    "badge": "New"
+  },
+  {
+    "id": 9,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF131-26B-2-Rust-1.jpg?v=1775819489&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef131-26b-2-rust",
+    "badge": "New"
+  },
+  {
+    "id": 10,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF131-26A-2-Maroon-1.jpg?v=1775819490&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef131-26a-2-maroon",
+    "badge": "New"
+  },
+  {
+    "id": 11,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC189-26-2-White-1.jpg?v=1776249324&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-ec189-26-2-white",
+    "badge": "New"
+  },
+  {
+    "id": 12,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC188-26A-2-Black-1.jpg?v=1775819491&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-ec188-26a-2-black",
+    "badge": "New"
+  },
+  {
+    "id": 13,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC186-26B-2-Teal-1_a0d9ed84-5bb7-4db9-bcee-c139f84dad08.jpg?v=1777446554&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-ec186-26a-2-teal",
+    "badge": "New"
+  },
+  {
+    "id": 14,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC172-26-2-Purple-1.jpg?v=1775819480&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec172-26-2-purple",
+    "badge": "New"
+  },
+  {
+    "id": 15,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC169-26-2-Beige-1.jpg?v=1776249754&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec169-26-2-beige",
+    "badge": "New"
+  },
+  {
+    "id": 16,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC164-26-2-Blue-1.jpg?v=1775819481&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec164-26-2-blue",
+    "badge": "New"
+  },
+  {
+    "id": 17,
+    "name": "RTS  | SHIRT, TOUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/SF-26-26-Magenta-1_3d695809-f693-4f3e-8023-df63affeb013.jpg?v=1771831374&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-touser-dupatta-sf-26-26-magenta",
+    "badge": null
+  },
+  {
+    "id": 18,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/LW-02-26-Blue-1_324428d6-9910-475b-8f14-edb9192be919.jpg?v=1771580181&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-lw-02-26-blue",
+    "badge": null
+  },
+  {
+    "id": 19,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR97-26-2-charcoal-1.jpg?v=1772518223&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br97-26-2-charcoal",
+    "badge": null
+  },
+  {
+    "id": 20,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR95-26-2-lightblue-1.jpg?v=1772518040&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br95-26-2-light-blue",
+    "badge": null
+  },
+  {
+    "id": 21,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR94-26-2-Lilac-1.jpg?v=1775644124&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br94-26-2-lilac",
+    "badge": null
+  },
+  {
+    "id": 22,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR92-26-2-purple-1.jpg?v=1772518030&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br92-26-2-purple",
+    "badge": null
+  },
+  {
+    "id": 23,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR91-26-2-teracotta-1.jpg?v=1772518019&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br91-26-2-teracotta",
+    "badge": null
+  },
+  {
+    "id": 24,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BR88-26-2-Teal-1.jpg?v=1775644031&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-br88-26-2-teal",
+    "badge": null
+  },
+  {
+    "id": 25,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BD117-26-2-beige-1.jpg?v=1772518006&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-bd117-26-2-beige",
+    "badge": null
+  },
+  {
+    "id": 26,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/BD101-26-2-mustard-1.jpg?v=1772517977&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-bd101-26-2-mustard",
+    "badge": null
+  },
+  {
+    "id": 27,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC101-26-Green-1.jpg?v=1770123052&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec101-26-green",
+    "badge": null
+  },
+  {
+    "id": 28,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC46-26-Pink-2_10289497-4a33-426f-a339-a3df2e2ef63a.jpg?v=1768730032&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec46-26-pink",
+    "badge": null
+  },
+  {
+    "id": 29,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/M-02-26-Pink2.jpg?v=1768648967&width=1000",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-m-02-26-pink",
+    "badge": null
+  },
+  {
+    "id": 30,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/SL-25-26-Yellow-1_d4fdbb64-709f-467b-aa74-4875357a6024.jpg?v=1768558980&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-sl-25-26-yellow",
+    "badge": null
+  },
+  {
+    "id": 31,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/SL-19-26-Light_Blue-1_dc9a802a-91b1-41c3-923a-5d6095ebd39b.jpg?v=1768391620&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-sl-19-26-light-blue",
+    "badge": null
+  },
+  {
+    "id": 32,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC87-26-Pink-1_24e6748c-1db5-4d15-8cae-219b4f3e4b77.jpg?v=1768051198&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec87-26-pink",
+    "badge": null
+  },
+  {
+    "id": 33,
+    "name": "RTS | SHIRT & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC106-26-Blue-1_1ec216f9-5618-4f97-b2d0-aed243703996.jpg?v=1768051182&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-dupatta-ec106-26-blue",
+    "badge": null
+  },
+  {
+    "id": 34,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC105-26-Brown-1.jpg?v=1768896947&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-ec105-26-brown",
+    "badge": null
+  },
+  {
+    "id": 35,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC104-26-Rust-1.jpg?v=1768802244&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-ec104-26-rust",
+    "badge": null
+  },
+  {
+    "id": 36,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC35-26-Blue-1_83bd1cf0-1e5d-41e9-bef3-0a066d9d99a9.jpg?v=1768051152&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec35-26-blue",
+    "badge": null
+  },
+  {
+    "id": 37,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC34-26-Lilac-1.jpg?v=1768896859&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec34-26-lilac",
+    "badge": null
+  },
+  {
+    "id": 38,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC33-26-Mauve-1_872b64fe-5030-4f7c-9fc6-f0aa202d4988.jpg?v=1768051149&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec33-26-mauve",
+    "badge": null
+  },
+  {
+    "id": 39,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC31-26-Grey-1_d9fe2fac-9ecc-4ae2-a536-05d667b3cf4c.jpg?v=1768897076&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec31-26-grey",
+    "badge": null
+  },
+  {
+    "id": 40,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF77-26-Brown-1_e4f479b0-d5c7-4e2d-8207-13621dd5dc4a.jpg?v=1768051131&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-ef77-26-brown",
+    "badge": null
+  },
+  {
+    "id": 41,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF58-26-Black-1_f2757a30-940f-4345-9fe0-b45903e8e76d.jpg?v=1768051113&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef58-26-black",
+    "badge": null
+  },
+  {
+    "id": 42,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF56-26-Lavender-1_ba5ea2ed-cdfa-41f9-8bb4-5fb4b1ead3e5.jpg?v=1768051109&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef56-26-lavender",
+    "badge": null
+  },
+  {
+    "id": 43,
+    "name": "RTS | SHIRT & TROUSER",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF25-26-Light_Green-1_beddfeb5-5d6f-4804-b472-d1560dfa4938.jpg?v=1768051107&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-ef25-26-light-green",
+    "badge": null
+  },
+  {
+    "id": 44,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC43-26-Rust-1_c947ea61-e196-4d6c-b62a-b9ab3813d0ec.jpg?v=1768051057&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec43-26-rust",
+    "badge": null
+  },
+  {
+    "id": 45,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EC43-26-Yellow-1_7ef3ec89-b3a4-45b9-9939-40c69f4e0602.jpg?v=1768051055&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ec43-26-yellow",
+    "badge": null
+  },
+  {
+    "id": 46,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF71-26-OffWhite-1.jpg?v=1768897000&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef71-26-off-white",
+    "badge": null
+  },
+  {
+    "id": 47,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF71-26-Purple-1.jpg?v=1768897013&width=934",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef71-26-purple",
+    "badge": null
+  },
+  {
+    "id": 48,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EFL-17-3P25-OffWhite-1.jpg?v=1768802132&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef17-26-off-white",
+    "badge": null
+  },
+  {
+    "id": 49,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF15-26-Sea_Blue-1_f4bfdc6a-9036-4f8d-952a-c91f2f18119d.jpg?v=1768051000&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef15-26-sea-blue",
+    "badge": null
+  },
+  {
+    "id": 50,
+    "name": "RTS | SHIRT, TROUSER & DUPATTA",
+    "category": "Women",
+    "price": "PKR 0",
+    "image": "https://www.alkaramstudio.com/cdn/shop/files/EF14-26-Grey-1_71e1a396-f605-4ad7-8ed7-33b1b1c50c70.jpg?v=1768050996&width=933",
+    "link": "https://www.alkaramstudio.com/products/rts-shirt-trouser-dupatta-ef14-26-grey",
+    "badge": null
+  },
+  {
+    "id": 51,
+    "name": "DRAWSTRING TOTE BAG",
+    "category": "Accessories",
+    "price": "PKR 3,500",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/tote-bag-whbtb26-006-brown",
+    "badge": "New"
+  },
+  {
+    "id": 52,
+    "name": "STRUCTURED BUCKET BAG",
+    "category": "Accessories",
+    "price": "PKR 3,800",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/tote-bag-whbtb26-005-navy",
+    "badge": null
+  },
+  {
+    "id": 53,
+    "name": "TOTE BAG",
+    "category": "Accessories",
+    "price": "PKR 3,200",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/tote-bag-whbtb26-004-black",
+    "badge": null
+  },
+  {
+    "id": 54,
+    "name": "HOBO SHOULDER BAG",
+    "category": "Accessories",
+    "price": "PKR 4,200",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-009-off-white",
+    "badge": null
+  },
+  {
+    "id": 55,
+    "name": "HOBO SHOULDER BAG",
+    "category": "Accessories",
+    "price": "PKR 4,200",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-009-black",
+    "badge": null
+  },
+  {
+    "id": 56,
+    "name": "STRUCTURED TRAPEZE BAG",
+    "category": "Accessories",
+    "price": "PKR 4,500",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/cross-body-whbcb26-005-coffee",
+    "badge": null
+  },
+  {
+    "id": 57,
+    "name": "MINI BOWLING BAG",
+    "category": "Accessories",
+    "price": "PKR 3,900",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/cross-body-whbcb26-004-green",
+    "badge": "New"
+  },
+  {
+    "id": 58,
+    "name": "MINI BOWLING BAG",
+    "category": "Accessories",
+    "price": "PKR 3,900",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/cross-body-whbcb26-004-mustard",
+    "badge": null
+  },
+  {
+    "id": 59,
+    "name": "CLASSIC SHOULDER BAG",
+    "category": "Accessories",
+    "price": "PKR 4,000",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-008-white",
+    "badge": null
+  },
+  {
+    "id": 60,
+    "name": "MINI BOSTON BAG",
+    "category": "Accessories",
+    "price": "PKR 3,600",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/cross-body-whbcb26-003-black",
+    "badge": null
+  },
+  {
+    "id": 61,
+    "name": "MINI BOSTON BAG",
+    "category": "Accessories",
+    "price": "PKR 3,600",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/tote-bag-whbtb26-003-coffee",
+    "badge": null
+  },
+  {
+    "id": 62,
+    "name": "MINI WOVEN BOSTON BAG",
+    "category": "Accessories",
+    "price": "PKR 4,100",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/tote-bag-whbtb26-002-black",
+    "badge": null
+  },
+  {
+    "id": 63,
+    "name": "CHAIN-STRAP SHOULDER BAG",
+    "category": "Accessories",
+    "price": "PKR 4,300",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-006-black",
+    "badge": null
+  },
+  {
+    "id": 64,
+    "name": "CHAIN-STRAP CROSSBODY BAG",
+    "category": "Accessories",
+    "price": "PKR 3,700",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-005-green",
+    "badge": null
+  },
+  {
+    "id": 65,
+    "name": "CHAIN-STRAP SHOULDER BAG",
+    "category": "Accessories",
+    "price": "PKR 4,300",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-004-beige",
+    "badge": null
+  },
+  {
+    "id": 66,
+    "name": "STRUCTURED TOTE BAG",
+    "category": "Accessories",
+    "price": "PKR 4,600",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/tote-bag-whbtb26-001-black",
+    "badge": null
+  },
+  {
+    "id": 67,
+    "name": "CLASSIC CROSSBODY BAG",
+    "category": "Accessories",
+    "price": "PKR 3,800",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/cross-body-whbcb26-002-coffee",
+    "badge": null
+  },
+  {
+    "id": 68,
+    "name": "CLASSIC CROSS BODY BAG",
+    "category": "Accessories",
+    "price": "PKR 3,800",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/cross-body-whbcb26-001-brown",
+    "badge": null
+  },
+  {
+    "id": 69,
+    "name": "CHAIN-STRAP SHOULDER BAG",
+    "category": "Accessories",
+    "price": "PKR 4,300",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-003-white",
+    "badge": null
+  },
+  {
+    "id": 70,
+    "name": "DOME BAG WITH SCARF",
+    "category": "Accessories",
+    "price": "PKR 4,400",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-002-brown",
+    "badge": null
+  },
+  {
+    "id": 71,
+    "name": "STRUCTURED FLAP SATCHEL",
+    "category": "Accessories",
+    "price": "PKR 4,800",
+    "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/shoulder-bag-whbsb26-001-black",
+    "badge": "Best Seller"
+  },
+  {
+    "id": 72,
+    "name": "Footwear",
+    "category": "Accessories",
+    "price": "PKR 2,500",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/footwear-lfws-025-black",
+    "badge": null
+  },
+  {
+    "id": 73,
+    "name": "Thread Weaved Bangles",
+    "category": "Accessories",
+    "price": "PKR 1,200",
+    "image": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/thread-weaved-bangles-ljb-02-pink",
+    "badge": null
+  },
+  {
+    "id": 74,
+    "name": "Bangles",
+    "category": "Accessories",
+    "price": "PKR 950",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/bangles-ljb-01-red",
+    "badge": null
+  },
+  {
+    "id": 75,
+    "name": "Hoop Earrings",
+    "category": "Accessories",
+    "price": "PKR 850",
+    "image": "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&q=80&w=800",
+    "link": "https://www.alkaramstudio.com/products/hoop-earrings-lje-21-red",
+    "badge": null
+  }
+]

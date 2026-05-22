@@ -1,0 +1,14 @@
+asgiref
+dj-database-url
+Django>=4.2
+django-cors-headers
+django-environ
+djangorestframework
+djangorestframework-simplejwt
+pillow
+psycopg2-binary
+PyJWT
+python-dotenv
+sqlparse
+tzdata
+whitenoise

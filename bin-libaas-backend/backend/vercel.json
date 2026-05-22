@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "binlibaas/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "binlibaas/wsgi.py"
+        }
+    ]
+}

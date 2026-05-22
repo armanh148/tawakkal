@@ -1,0 +1,357 @@
+import React, { useState, useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Mail, Phone, MapPin, Clock, Send, MessageCircle, ChevronDown } from 'lucide-react';
+
+gsap.registerPlugin(ScrollTrigger);
+
+const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [isSubjectOpen, setIsSubjectOpen] = useState(false);
+  
+  const subjectOptions = [
+    { value: '', label: 'Select Subject' },
+    { value: 'order', label: 'Order Inquiry' },
+    { value: 'return', label: 'Return/Exchange' },
+    { value: 'product', label: 'Product Question' },
+    { value: 'feedback', label: 'Feedback' },
+    { value: 'other', label: 'Other' }
+  ];
+  
+  const sectionRef = useRef(null);
+  const formRef = useRef(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    
+    gsap.fromTo(formRef.current, 
+      { y: 60, opacity: 0 },
+      { 
+        y: 0, 
+        opacity: 1, 
+        duration: 0.8, 
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 80%',
+        }
+      }
+    );
+  }, []);
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/messages/`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject || 'other',
+          message: formData.message,
+        }),
+      });
+
+      setSubmitted(true);
+      setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+      setTimeout(() => setSubmitted(false), 5000);
+    } catch (error) {
+      console.error('Error submitting form', error);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (isSubjectOpen && !e.target.closest('.subject-dropdown')) {
+        setIsSubjectOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [isSubjectOpen]);
+
+  return (
+    <div className="bg-ivory min-h-screen text-charcoal">
+      {/* Hero Banner */}
+      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-charcoal/60 z-10" />
+          <img 
+            src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=1920" 
+            alt="Contact Us" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="relative z-20 text-center px-6 max-w-4xl mx-auto">
+          <p className="text-gold tracking-[0.4em] uppercase text-[10px] font-bold mb-6">Get In Touch</p>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white tracking-tighter mb-6">
+            Contact <span className="italic font-serif text-gold">Us</span>
+          </h1>
+          <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+            We would love to hear from you. Reach out to us for any inquiries or support.
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Info Cards */}
+      <section ref={sectionRef} className="py-16 md:py-20 px-4 sm:px-6 -mt-16 md:-mt-20 relative z-30">
+        <div className="max-w-[1440px] mx-auto">
+          {/* Mobile: 2 per row | Desktop: 4 columns */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+            {[
+              { icon: Phone, title: "Phone", line1: "0300-7904231", line2: "0323-0000883" },
+              { icon: Mail, title: "Email", line1: "mianusmanjee09@gmail.com", line2: "support@tawakkal.com" },
+              { icon: MapPin, title: "Address", line1: "Opposite GC University, Kotwali", line2: "Road, Chenab Chowk, Faisalabad" },
+              { icon: Clock, title: "Working Hours", line1: "Mon - Sat: 10AM - 8PM", line2: "Sunday: Closed" }
+            ].map((item, index) => (
+              <div key={index} className="bg-white p-4 md:p-8 shadow-lg border-t-2 border-gold text-center group hover:shadow-xl transition-all">
+                <div className="w-10 h-10 md:w-16 md:h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-2 md:mb-6 group-hover:bg-gold/20 transition-colors">
+                  <item.icon className="w-4 h-4 md:w-7 md:h-7 text-gold" />
+                </div>
+                <h3 className="font-bold text-xs md:text-lg mb-1 md:mb-3 tracking-tight">{item.title}</h3>
+                <p className="text-gray-600 text-[10px] md:text-sm leading-tight">{item.line1}</p>
+                <p className="text-gray-600 text-[10px] md:text-sm leading-tight">{item.line2}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form & Map */}
+      <section className="py-16 md:py-24 px-4 sm:px-6">
+        <div className="max-w-[1440px] mx-auto">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-start">
+            {/* Contact Form */}
+            <div ref={formRef} className="pr-2 md:pr-4">
+              <div className="mb-10">
+                <p className="text-gold tracking-[0.3em] uppercase text-[10px] font-bold mb-4">Send Message</p>
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+                  Get in <span className="italic font-serif text-gold">Touch</span>
+                </h2>
+              </div>
+
+              {submitted ? (
+                <div className="bg-green-50 border border-green-200 p-8 text-center">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Send className="w-8 h-8 text-green-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-green-800 mb-2">Message Sent!</h3>
+                  <p className="text-green-700">Thank you for contacting us. We will get back to you shortly.</p>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid sm:grid-cols-2 gap-4 md:gap-6">
+                    <div>
+                      <label className="block text-[10px] uppercase tracking-widest font-bold text-charcoal mb-2">Your Name</label>
+                      <input
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                        className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-gold transition-colors"
+                        placeholder="John Doe"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-[10px] uppercase tracking-widest font-bold text-charcoal mb-2">Email Address</label>
+                      <input
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
+                        className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-gold transition-colors"
+                        placeholder="john@example.com"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block text-[10px] uppercase tracking-widest font-bold text-charcoal mb-2">Phone Number</label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-gold transition-colors"
+                        placeholder="0300-1234567"
+                      />
+                    </div>
+                    <div className="relative subject-dropdown">
+                      <label className="block text-[10px] uppercase tracking-widest font-bold text-charcoal mb-2">Subject</label>
+                      {/* Custom Dropdown */}
+                      <div className="relative">
+                        <button
+                          type="button"
+                          onClick={() => setIsSubjectOpen(!isSubjectOpen)}
+                          className="w-full bg-white border border-gray-200 px-4 py-3 pr-10 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-colors text-left flex items-center justify-between"
+                        >
+                          <span className={formData.subject ? 'text-charcoal' : 'text-gray-400'}>
+                            {subjectOptions.find(opt => opt.value === formData.subject)?.label || 'Select Subject'}
+                          </span>
+                          <ChevronDown size={16} className={`text-gray-400 transition-transform ${isSubjectOpen ? 'rotate-180' : ''}`} />
+                        </button>
+                        
+                        {isSubjectOpen && (
+                          <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 shadow-lg z-50 max-h-48 overflow-y-auto">
+                            {subjectOptions.map((option) => (
+                              <button
+                                key={option.value}
+                                type="button"
+                                onClick={() => {
+                                  setFormData({ ...formData, subject: option.value });
+                                  setIsSubjectOpen(false);
+                                }}
+                                className={`w-full px-4 py-2.5 text-left text-sm hover:bg-gold/10 transition-colors ${
+                                  formData.subject === option.value ? 'bg-gold/20 text-gold font-medium' : 'text-charcoal'
+                                } ${option.value === '' ? 'text-gray-400' : ''}`}
+                              >
+                                {option.label}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                      {/* Hidden input for form validation */}
+                      <input type="hidden" name="subject" value={formData.subject} required />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-[10px] uppercase tracking-widest font-bold text-charcoal mb-2">Your Message</label>
+                    <textarea
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
+                      rows={6}
+                      className="w-full bg-white border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-gold transition-colors resize-none"
+                      placeholder="How can we help you?"
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="bg-charcoal text-white px-10 py-4 text-[11px] font-bold uppercase tracking-[0.2em] hover:bg-gold transition-colors flex items-center gap-3 disabled:opacity-50"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                        Sending...
+                      </>
+                    ) : (
+                      <>
+                        <Send size={16} />
+                        Send Message
+                      </>
+                    )}
+                  </button>
+                </form>
+              )}
+            </div>
+
+            {/* Map & Additional Info */}
+            <div className="space-y-8">
+              <div className="bg-charcoal text-white p-8">
+                <div className="flex items-center gap-3 mb-6">
+                  <MessageCircle className="w-6 h-6 text-gold" />
+                  <h3 className="text-xl font-bold tracking-tight">Quick Support</h3>
+                </div>
+                <p className="text-white/70 text-sm leading-relaxed mb-6">
+                  Need quick assistance? Reach out to us on WhatsApp for instant support regarding orders, products, or any inquiries.
+                </p>
+                <a 
+                  href="https://wa.me/03230000883" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 text-[11px] font-bold uppercase tracking-widest hover:bg-green-700 transition-colors"
+                >
+                  <MessageCircle size={16} />
+                  Chat on WhatsApp
+                </a>
+              </div>
+
+              <div className="aspect-video bg-gray-100 relative overflow-hidden">
+                <iframe
+                  src="https://maps.google.com/maps?q=31.415547,73.070674&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Store Location"
+                  className="grayscale hover:grayscale-0 transition-all duration-500"
+                />
+              </div>
+
+              <div className="bg-white p-6 border border-gray-100">
+                <h4 className="font-bold text-sm mb-4 tracking-tight">Store Location</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  <a href="https://www.google.com/maps/search/?api=1&query=31.415547,73.070674" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">
+                    Opposite GC University, Kotwali<br />
+                    Road, Chenab Chowk, Faisalabad
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-24 bg-[#f9f9f9] border-y border-gold/10">
+        <div className="max-w-[1440px] mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="text-gold tracking-[0.3em] uppercase text-[10px] font-bold mb-4">Common Questions</p>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+              Frequently Asked <span className="italic font-serif text-gold">Questions</span>
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {[
+              { q: "How can I track my order?", a: "Once your order is shipped, you will receive a tracking number via email and SMS. You can use this number to track your package on our website or the courier's website." },
+              { q: "What is your return policy?", a: "We accept returns within 7 days of delivery for unworn items with original tags attached. Items must be in their original condition and packaging." },
+              { q: "Do you offer cash on delivery?", a: "Yes, we offer Cash on Delivery (COD) for orders within Pakistan. You can also pay via bank transfer, credit/debit card, or digital wallets." },
+              { q: "How long does shipping take?", a: "Orders are typically processed within 1-2 business days. Delivery within Pakistan takes 3-5 business days, while international shipping takes 7-14 business days." }
+            ].map((faq, index) => (
+              <div key={index} className="bg-white p-6 border border-gray-100 shadow-sm">
+                <h3 className="font-bold text-charcoal mb-3 text-sm">{faq.q}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Contact;
