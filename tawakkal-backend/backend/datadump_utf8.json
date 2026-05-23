@@ -1,0 +1,553 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ioz1qypA14RL1njOk5Apyg$umU9htmBZBLAfr/pj/EB26RKLLlSuMmDkHIagZ7N3gY=",
+        "last_login": "2026-05-18T04:34:21.165Z",
+        "is_superuser": true,
+        "username": "admin@tawakkal.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@tawakkal.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-09T12:03:49.997Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$RY6QjsPNbNmjEZIUkwhw9B$W6u06N/7iDvb8Z3Hmq6nfev9VaRGdRXNXpLLCPqmmPY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "syedjawwad.tms@gmail.com",
+        "first_name": "Jawad",
+        "last_name": "",
+        "email": "syedjawwad.tms@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-11T06:53:39.828Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4je7x8eo9fiqgjkthhir1696ujz54x9t",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP-yZ0OAsgvt0btvIMCCVA1NSnsy_t006UGvM5N5gw_7Vv3e8-pnhgkUXH5ZDOmZ2yH4Edp9EWlp2zpHcSTitF3cFs6v69n-DWroFSbARDqTcxzGrBySIQxoo7EcrZJ6NBizRTcUE1MhkoVQ62QHTSyd5gSfL8kTNyg:1wLgXH:Lk7uZfINkRpccWPE7zJJARPjBpjXJ6SyUZ9387gqsck",
+        "expire_date": "2026-05-23T12:11:59.821Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y39tabzcbgeeyypbt6bcnnxtezx5kwjv",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP-yZ0OAsgvt0btvIMCCVA1NSnsy_t006UGvM5N5gw_7Vv3e8-pnhgkUXH5ZDOmZ2yH4Edp9EWlp2zpHcSTitF3cFs6v69n-DWroFSbARDqTcxzGrBySIQxoo7EcrZJ6NBizRTcUE1MhkoVQ62QHTSyd5gSfL8kTNyg:1wMIaZ:yTtv7kPjzepvJaimkB1Jb_Th9Xdt4JsamFWLJB6NUSM",
+        "expire_date": "2026-05-25T04:49:55.347Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zf51vq90r69mm0jdk5afsaiof3b3ear8",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBaoYBL956BzDCDVA0kpV0Z7y5NutDte-__twiwrTlsjZcwk7iIQZx-GUJ8ctkFPaDcq4y1rMuMck_kYZu8VeLX9Wj_DjK03NfOG-88GyKOMKKNOJnhTMkgwhTJI6lRd5LQOWu05WQVJUoqWa97ID5fBLM44g:1wOpgL:-ORIrWcNviE36SZal6yZFUc-k3WhHwQqjuKfX-GUW6s",
+        "expire_date": "2026-06-01T04:34:21.169Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 1,
+    "fields": {
+        "name": "RTS | SHIRT & TROUSER",
+        "category": "Ready to Wear",
+        "price": "PKR 4,500",
+        "image": "https://www.alkaramstudio.com/cdn/shop/files/BD116-26-2-Beige-1.jpg?v=1776935342&width=933",
+        "badge": "New",
+        "stock": 78,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.249Z",
+        "updated_at": "2026-05-09T12:25:58.914Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 2,
+    "fields": {
+        "name": "RTS | SHIRT, TROUSER & DUPATTA",
+        "category": "Luxe Edition",
+        "price": "PKR 4,500",
+        "image": "https://www.alkaramstudio.com/cdn/shop/files/EF132-26B-2-Beige-1_4552f097-0170-44c9-8683-ab1ce31e8771.jpg?v=1776935342&width=933",
+        "badge": "New",
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.261Z",
+        "updated_at": "2026-05-09T12:03:51.261Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 3,
+    "fields": {
+        "name": "RTS | SHIRT & DUPATTA",
+        "category": "Ready to Wear",
+        "price": "PKR 4,500",
+        "image": "https://www.alkaramstudio.com/cdn/shop/files/BR156-2P26-3-Cream-1.jpg?v=1776065382&width=933",
+        "badge": "New",
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.270Z",
+        "updated_at": "2026-05-09T12:03:51.270Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 4,
+    "fields": {
+        "name": "RTS | SHIRT",
+        "category": "Unstitched",
+        "price": "PKR 4,500",
+        "image": "https://www.alkaramstudio.com/cdn/shop/files/BR138-26-3-Black-1.jpg?v=1776065382&width=933",
+        "badge": "New",
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.279Z",
+        "updated_at": "2026-05-09T12:03:51.279Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 5,
+    "fields": {
+        "name": "RTS  | SHIRT, TOUSER & DUPATTA",
+        "category": "Unstitched",
+        "price": "PKR 4,500",
+        "image": "https://www.alkaramstudio.com/cdn/shop/files/SF-26-26-Magenta-1_3d695809-f693-4f3e-8023-df63affeb013.jpg?v=1771831374&width=933",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.293Z",
+        "updated_at": "2026-05-09T12:03:51.293Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 6,
+    "fields": {
+        "name": "DRAWSTRING TOTE BAG",
+        "category": "Accessories",
+        "price": "PKR 3,500",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+        "badge": "New",
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.316Z",
+        "updated_at": "2026-05-09T12:03:51.316Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 7,
+    "fields": {
+        "name": "STRUCTURED BUCKET BAG",
+        "category": "Accessories",
+        "price": "PKR 3,800",
+        "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.326Z",
+        "updated_at": "2026-05-09T12:03:51.326Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 8,
+    "fields": {
+        "name": "TOTE BAG",
+        "category": "Accessories",
+        "price": "PKR 3,200",
+        "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.335Z",
+        "updated_at": "2026-05-09T12:03:51.335Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 9,
+    "fields": {
+        "name": "HOBO SHOULDER BAG",
+        "category": "Accessories",
+        "price": "PKR 4,200",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.345Z",
+        "updated_at": "2026-05-09T12:03:51.345Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 10,
+    "fields": {
+        "name": "STRUCTURED TRAPEZE BAG",
+        "category": "Accessories",
+        "price": "PKR 4,500",
+        "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.357Z",
+        "updated_at": "2026-05-09T12:03:51.357Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 11,
+    "fields": {
+        "name": "MINI BOWLING BAG",
+        "category": "Accessories",
+        "price": "PKR 3,900",
+        "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&q=80&w=800",
+        "badge": "New",
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.366Z",
+        "updated_at": "2026-05-09T12:03:51.366Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 12,
+    "fields": {
+        "name": "CLASSIC SHOULDER BAG",
+        "category": "Accessories",
+        "price": "PKR 4,000",
+        "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.376Z",
+        "updated_at": "2026-05-09T12:03:51.376Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 13,
+    "fields": {
+        "name": "MINI BOSTON BAG",
+        "category": "Accessories",
+        "price": "PKR 3,600",
+        "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.385Z",
+        "updated_at": "2026-05-09T12:03:51.385Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 14,
+    "fields": {
+        "name": "MINI WOVEN BOSTON BAG",
+        "category": "Accessories",
+        "price": "PKR 4,100",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.395Z",
+        "updated_at": "2026-05-09T12:03:51.395Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 15,
+    "fields": {
+        "name": "CHAIN-STRAP SHOULDER BAG",
+        "category": "Accessories",
+        "price": "PKR 4,300",
+        "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.407Z",
+        "updated_at": "2026-05-09T12:03:51.407Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 16,
+    "fields": {
+        "name": "CHAIN-STRAP CROSSBODY BAG",
+        "category": "Accessories",
+        "price": "PKR 3,700",
+        "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.416Z",
+        "updated_at": "2026-05-09T12:03:51.416Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 17,
+    "fields": {
+        "name": "STRUCTURED TOTE BAG",
+        "category": "Accessories",
+        "price": "PKR 4,600",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.426Z",
+        "updated_at": "2026-05-09T12:03:51.426Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 18,
+    "fields": {
+        "name": "CLASSIC CROSSBODY BAG",
+        "category": "Accessories",
+        "price": "PKR 3,800",
+        "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.435Z",
+        "updated_at": "2026-05-09T12:03:51.435Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 19,
+    "fields": {
+        "name": "CLASSIC CROSS BODY BAG",
+        "category": "Accessories",
+        "price": "PKR 3,800",
+        "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.444Z",
+        "updated_at": "2026-05-09T12:03:51.444Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 20,
+    "fields": {
+        "name": "DOME BAG WITH SCARF",
+        "category": "Accessories",
+        "price": "PKR 4,400",
+        "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.453Z",
+        "updated_at": "2026-05-09T12:03:51.453Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 21,
+    "fields": {
+        "name": "STRUCTURED FLAP SATCHEL",
+        "category": "Accessories",
+        "price": "PKR 4,800",
+        "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&q=80&w=800",
+        "badge": "Best Seller",
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.465Z",
+        "updated_at": "2026-05-09T12:03:51.465Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 22,
+    "fields": {
+        "name": "Footwear",
+        "category": "Accessories",
+        "price": "PKR 2,500",
+        "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.474Z",
+        "updated_at": "2026-05-09T12:03:51.474Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 23,
+    "fields": {
+        "name": "Thread Weaved Bangles",
+        "category": "Jewelry",
+        "price": "PKR 1,200",
+        "image": "https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.486Z",
+        "updated_at": "2026-05-09T12:03:51.486Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 24,
+    "fields": {
+        "name": "Bangles",
+        "category": "Jewelry",
+        "price": "PKR 950",
+        "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.497Z",
+        "updated_at": "2026-05-09T12:03:51.497Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 25,
+    "fields": {
+        "name": "Hoop Earrings",
+        "category": "Jewelry",
+        "price": "PKR 850",
+        "image": "https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?auto=format&fit=crop&q=80&w=800",
+        "badge": null,
+        "stock": 50,
+        "sizes": [],
+        "colors": [],
+        "active": true,
+        "created_at": "2026-05-09T12:03:51.507Z",
+        "updated_at": "2026-05-09T12:03:51.507Z"
+    }
+},
+{
+    "model": "api.product",
+    "pk": 26,
+    "fields": {
+        "name": "rtgehhetjteteth",
+        "category": "Ready to Wear",
+        "price": "PKR 4,500",
+        "image": "products/Screenshot_2026-04-22_172655.png",
+        "badge": "null",
+        "stock": 10,
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#1a1a1a"
+            }
+        ],
+        "active": true,
+        "created_at": "2026-05-11T05:12:53.320Z",
+        "updated_at": "2026-05-11T05:22:28.765Z"
+    }
+},
+{
+    "model": "api.order",
+    "pk": 1,
+    "fields": {
+        "order_id": "#BL-103504",
+        "customer": "syed jawwad",
+        "email": "syedjawwad.tms@gmail.com",
+        "phone": "03293932299",
+        "product": "RTS | SHIRT & DUPATTA (x1)",
+        "amount": "4750.00",
+        "status": "delivered",
+        "address": "efhyurthjryjur6ju, rtujyjtrjr",
+        "notes": "",
+        "date": "2026-05-11",
+        "created_at": "2026-05-11T06:15:03.524Z",
+        "updated_at": "2026-05-11T06:29:01.361Z"
+    }
+},
+{
+    "model": "api.message",
+    "pk": 3,
+    "fields": {
+        "name": "syed jawwad",
+        "email": "syedjawwad.tms@gmail.com",
+        "subject": "order",
+        "message": "CZBFNXJNDGJJ",
+        "reply": "dgrhsh",
+        "read": true,
+        "created_at": "2026-05-11T06:34:29.811Z"
+    }
+},
+{
+    "model": "api.storesettings",
+    "pk": 1,
+    "fields": {
+        "store_name": "Tawakkal Official",
+        "email": "admin@tawakkal.com",
+        "phone": "0300-7904231",
+        "whatsapp": "03230000883",
+        "currency": "PKR",
+        "address": "Opposite GC University, Kotwali Road, Faisalabad"
+    }
+}
+]

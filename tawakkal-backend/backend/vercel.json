@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "tawakkal/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "tawakkal/wsgi.py"
+        }
+    ]
+}
