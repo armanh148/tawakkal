@@ -127,15 +127,15 @@ const Navbar = () => {
                     <div className="w-1/3 flex gap-6">
                       <div className="flex-1 space-y-4 text-center group/card cursor-pointer">
                         <div className="aspect-[3/4] overflow-hidden bg-gray-100">
-                          <img src="/pakistani_traditional_fashion_1_1778479399251.png" alt="Spring Summer" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
+                          <img src="/spring-summer-1.png" alt="Spring Summer" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
                         </div>
                         <p className="text-[9px] tracking-widest text-charcoal mt-1 font-bold uppercase">SPRING SUMMER'26 <span className="text-pink-400">🌸</span></p>
                       </div>
                       <div className="flex-1 space-y-4 text-center group/card cursor-pointer">
                         <div className="aspect-[3/4] overflow-hidden bg-gray-100">
-                          <img src="/pakistani_traditional_fashion_2_1778479507179.png" alt="Eid Edit" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
+                          <img src="/spring-summer-2.png" alt="Spring Summer" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
                         </div>
-                        <p className="text-[9px] tracking-widest text-charcoal mt-1 font-bold uppercase">RTW: EID EDIT</p>
+                        <p className="text-[9px] tracking-widest text-charcoal mt-1 font-bold uppercase">NEW ARRIVALS</p>
                       </div>
                     </div>
                   </div>
@@ -173,7 +173,7 @@ const Navbar = () => {
                     <div className="w-1/3 flex gap-6">
                       <div className="flex-1 space-y-4 text-center group/card cursor-pointer">
                         <div className="aspect-[3/4] overflow-hidden bg-gray-100">
-                          <img src="spring-summer-1.png" alt="Spring Summer" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
+                          <img src="/spring-summer-1.png" alt="Spring Summer" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
                         </div>
                         <div>
                           <h5 className="text-[10px] font-bold tracking-widest text-charcoal uppercase">Spring Summer'26 <span className="text-pink-400">🌸</span></h5>
@@ -182,11 +182,11 @@ const Navbar = () => {
                       </div>
                       <div className="flex-1 space-y-4 text-center group/card cursor-pointer">
                         <div className="aspect-[3/4] overflow-hidden bg-gray-100">
-                          <img src="spring-summer-2.png" alt="Eid Edit" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
+                          <img src="/spring-summer-2.png" alt="Spring Summer" className="w-full h-full object-cover transition-transform duration-700 group-hover/card:scale-105" />
                         </div>
                         <div>
-                          <h5 className="text-[10px] font-bold tracking-widest text-charcoal uppercase">RTW: EID EDIT</h5>
-                          <p className="text-[9px] tracking-widest text-gray-400 mt-1">LATEST DROPS</p>
+                          <h5 className="text-[10px] font-bold tracking-widest text-charcoal uppercase">SPRING SUMMER <span className="text-pink-400">🌸</span></h5>
+                          <p className="text-[9px] tracking-widest text-gray-400 mt-1">NEW COLLECTION</p>
                         </div>
                       </div>
                     </div>
